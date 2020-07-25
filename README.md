@@ -9,4 +9,4 @@ Moreover, as an added help, the planner color-codes past times (grey), present t
 https://jtbataille.github.io/DailyPlannerHW5/
 
 ## Demo GIF:
-![Work Day Scheduler] (schedule.gif)
+![Work Day Scheduler] (demo/schedule.gif)
