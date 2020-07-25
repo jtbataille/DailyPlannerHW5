@@ -11,7 +11,7 @@ $(document).ready(function() {
 
     // save the value in localStorage as time
     localStorage.setItem("time", value);
-  });
+    });
 
   function hourUpdater() {
     // get current number of hours
@@ -28,15 +28,15 @@ $(document).ready(function() {
       if (blockHour < currentHour) {
       // if the current hour is greater than the block hour
       // then add class "past"
-        $(".description").addClass("past");
+        $(this).addClass("past");
       // if they are equal
       // then remove class "past" and add class "present"
       } else if (blockHour === currentHour) {
-        $(".description").removeClass("past").addClass("present");
+        $(this).removeClass("past").addClass("present");
       // else
       // remove class "past", remove class "present", add class "future"
       } else {
-        $(".description").removeClass("past present").addClass("future");
+        $(this).removeClass("past present").addClass("future");
       }
     });
   }
