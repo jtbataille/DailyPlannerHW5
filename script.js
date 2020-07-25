@@ -10,7 +10,7 @@ $(document).ready(function() {
     console.log('time:', time);
 
     // save the value in localStorage as time
-    localStorage.setItem("value", value);
+    localStorage.setItem("time", value);
   });
 
   function hourUpdater() {
@@ -47,10 +47,9 @@ $(document).ready(function() {
   // which means execute hourUpdater function every 15 seconds
   setInterval(function(){
     hourUpdater();
-    localStorage.getItem("value");
- }, 15000);
+  }, 15000);
   // load any saved data from localStorage
-  // localStorage.getItem("value");
+  localStorage.getItem("time");
   // display current day on page
   $("#currentDay").text(moment().format("dddd, MMMM Do"));
 });
