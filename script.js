@@ -10,7 +10,7 @@ $(document).ready(function() {
     console.log('time:', time);
 
     // save the value in localStorage as time
-    localStorage.setItem("time", value);
+    localStorage.setItem(time, value);
     });
 
   function hourUpdater() {
@@ -48,8 +48,34 @@ $(document).ready(function() {
   setInterval(function(){
     hourUpdater();
   }, 15000);
-  // load any saved data from localStorage
-  localStorage.getItem("time");
+  // load any saved data from localStorage for each hour-div
+  var hour9 = localStorage.getItem("hour-9");
+  $("#hour-9 .description").val(hour9);
+
+  var hour10 = localStorage.getItem("hour-10");
+  $("#hour-10 .description").val(hour10);
+
+  var hour11 = localStorage.getItem("hour-11");
+  $("#hour-11 .description").val(hour11);
+  
+  var hour12 = localStorage.getItem("hour-12");
+  $("#hour-10 .description").val(hour12);
+  
+  var hour13 = localStorage.getItem("hour-13");
+  $("#hour-13 .description").val(hour13);
+  
+  var hour14 = localStorage.getItem("hour-14");
+  $("#hour-14 .description").val(hour14);
+  
+  var hour15 = localStorage.getItem("hour-15");
+  $("#hour-15 .description").val(hour15);
+  
+  var hour16 = localStorage.getItem("hour-16");
+  $("#hour-16 .description").val(hour16);
+  
+  var hour17 = localStorage.getItem("hour-17");
+  $("#hour-17 .description").val(hour17);
+
   // display current day on page
   $("#currentDay").text(moment().format("dddd, MMMM Do"));
 });
