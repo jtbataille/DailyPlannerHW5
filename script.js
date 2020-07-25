@@ -41,6 +41,7 @@ $(document).ready(function() {
     });
   }
 
+  // calls the hourUpdater function
   hourUpdater();
 
   // set up interval to check if current time needs to be updated
@@ -59,7 +60,7 @@ $(document).ready(function() {
   $("#hour-11 .description").val(hour11);
   
   var hour12 = localStorage.getItem("hour-12");
-  $("#hour-10 .description").val(hour12);
+  $("#hour-12 .description").val(hour12);
   
   var hour13 = localStorage.getItem("hour-13");
   $("#hour-13 .description").val(hour13);
