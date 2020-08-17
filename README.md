@@ -1,4 +1,4 @@
-## Simple Daily Planner:
+## Day-to-Day Planner:
 
 In this planner, one can enter one's schedule into hour blocks denoted by dynamically updated JS and HTML based on the date, using moment.js. After saving one's schedule, even upon refreshing the page, the schedule will remain there.
 
