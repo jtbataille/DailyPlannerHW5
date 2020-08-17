@@ -4,9 +4,12 @@ In this planner, one can enter one's schedule into hour blocks denoted by dynami
 
 Moreover, as an added help, the planner color-codes past times (grey), present time (red) and future time (green) for the user's benefit!
 
-## Deployed Website link:
-
-[Plan Away](https://jtbataille.github.io/Day-to-Day-Planner/)
-
 ## Demo GIF:
 ![schedule](https://user-images.githubusercontent.com/65187093/88464354-fdab7300-ce87-11ea-92f1-ff7303694ae2.gif)
+
+## Deployed Website link:
+![Plan Away](https://jtbataille.github.io/Day-to-Day-Planner/)
+
+## Contact Information:
+* E-mail: jtbataille@gmail.com
+* Portfolio: https://jtbataille.github.io/
