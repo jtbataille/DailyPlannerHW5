@@ -11,7 +11,7 @@ Moreover, as an added help, the planner color-codes past times (grey), present t
 * JavaScript
 * Local Storage
 * CSS
-* 
+* Moment.js
 
 ## Demo GIF:
 ![schedule](https://user-images.githubusercontent.com/65187093/88464354-fdab7300-ce87-11ea-92f1-ff7303694ae2.gif)
