@@ -27,7 +27,7 @@ The user may type into the rows what s/he has planned for that time-block. Click
 ![schedule](https://user-images.githubusercontent.com/65187093/88464354-fdab7300-ce87-11ea-92f1-ff7303694ae2.gif)
 
 ## Deployed Application Link
-* [Plan Away](https://jtbataille.github.io/Day-to-Day-Planner/)
+* [Plan The Day Away Here](https://jtbataille.github.io/Day-to-Day-Planner/)
 
 ## Contact Information
 * Jarrod Bataille
