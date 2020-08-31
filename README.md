@@ -1,4 +1,5 @@
 # Day-to-Day Planner
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ## Table of Contents
 * [Description](#description)
@@ -15,11 +16,7 @@ In this planner, one can enter one's schedule into hour blocks denoted by dynami
 Moreover, as an added help, the planner color-codes past times (grey), present time (red) and future time (green) for the user's benefit!
 
 ## Technologies Used
-* HTML
-* JavaScript
-* Local Storage
-* CSS
-* Moment.js
+HTML, CSS, JavaScript, Local Storage, Moment.js
 
 ## Initial Usage
 Upon accessing the application, the user is greeted with the curren day based on their location using Moment.js. The color-coded bars descriped above will indicate to the user what events have passed, are the most pressing, and/or are the most distant.
@@ -33,5 +30,10 @@ The user may type into the rows what s/he has planned for that time-block. Click
 * [Plan Away](https://jtbataille.github.io/Day-to-Day-Planner/)
 
 ## Contact Information
-* E-mail: jtbataille@gmail.com
-* Portfolio: https://jtbataille.github.io/
+* Jarrod Bataille
+  * Portfolio Webpage: https://jtbataille.github.io/
+  * GitHub Profile: https://github.com/jtbataille
+  * E-mail Address: jtbataille@gmail.com
+
+- - -
+Copyright © 2007 Free Software Foundation, Inc. <https://fsf.org/>
