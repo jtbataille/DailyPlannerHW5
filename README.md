@@ -34,6 +34,3 @@ The user may type into the rows what s/he has planned for that time-block. Click
   * Portfolio Webpage: https://jtbataille.github.io/
   * GitHub Profile: https://github.com/jtbataille
   * E-mail Address: jtbataille@gmail.com
-
-- - -
-Copyright © 2007 Free Software Foundation, Inc. <https://fsf.org/>
